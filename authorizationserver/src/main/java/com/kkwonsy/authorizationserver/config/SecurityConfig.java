@@ -28,7 +28,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .authorizeRequests()
             .antMatchers("/oauth/**", "/oauth/token", "/oauth2/**", "/h2-console/*").permitAll()
             .and()
-            .formLogin().and()
+            .formLogin()
+            .and()
             .httpBasic();
     }
 }

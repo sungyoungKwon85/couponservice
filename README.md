@@ -1,4 +1,4 @@
-# Coupon Service
+# Spring Boot Oauth2
 
 
 ### 개발환경
@@ -26,6 +26,9 @@
 * keytool -list -rfc --keystore oauth2jwt.jks | openssl x509 -inform pem -pubkey
 #
 
+
+### References 
+https://daddyprogrammer.org/post/1287/spring-oauth2-authorizationserver-database/
 
 
 
